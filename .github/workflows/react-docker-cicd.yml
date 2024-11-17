@@ -39,7 +39,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker Image
         run: |
-         docker build -t react-docker:latest .
+         docker build -t react-docker-project:latest .
       - name: Tag Image
         run: |
           docker tag react-docker-project:latest ${{ secrets.DOCKER_USERNAME }}/react-docker-project:latest
