@@ -1,0 +1,51 @@
+# Ignore node_modules (dependencies installed locally)
+node_modules
+build
+dist
+
+# Ignore environment files (potentially sensitive data)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore cache and temporary files
+.cache
+.temp
+.DS_Store
+Thumbs.db
+
+# Ignore Vite-specific files
+.vite
+.vite-cache
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Dockerfile and Docker-related files (if not needed inside the image)
+.dockerignore
+Dockerfile
+
+# Ignore IDE/editor configuration files
+.vscode
+.idea
+*.sublime-workspace
+
+# Ignore testing-related files
+coverage
+*.spec.*
+*.test.*
+
+# Ignore build artifacts
+*.tar.gz
+*.zip

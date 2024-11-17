@@ -1,0 +1,14 @@
+.employee_information_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divider {
+    width: 50%;
+    height: 0.1rem;
+    background-color: #f8f8f8;
+    border-radius: 0.05rem;
+    margin-block: 1rem;
+}
