@@ -75,7 +75,7 @@ const  App:React.FC = () => {
   return(
     <div className={`container ${ state.mode == "LIGHT" ? 'light_color' : ""}`}>
       <button onClick={() => toggle_theme()}>Change to { state.mode == "DARK" ? "LIGHT" : "DARK"}</button>
-      <h1>Hello, React Developer Version 1</h1>
+      <h1>Hello, React Developer Version 2</h1>
 s
       {/* Hook Testing */}
       <button onClick={handle_counter}>Click increase to {counter}</button>
